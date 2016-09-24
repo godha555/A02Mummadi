@@ -1,0 +1,153 @@
+body{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+}
+header{
+    padding:1em;
+    color:white;
+    background-color: hotpink;
+    height:150px;
+}
+.img1{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    border-radius:50%;
+}
+video{
+    width: 400px;
+    height: 400px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:pink;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 180px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: lightcoral;
+}
+
+.active {
+    background-color:deeppink;
+}
+
+div.img {
+    margin: 30px;
+    border: 1px solid deeppink;
+    float:left;
+    width: 180px;
+    
+}
+
+div.img:hover {
+    border: 1px solid hotpink;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 20px;
+    text-align: center;
+}
+#matter{
+    position:absolute;
+    top:400px;
+    right:600px;
+    color:white;
+}
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 27, 2016, 10:41:26 AM
+    Author     : S525729
+*/
+.options
+{
+    width: 93%;
+    border: 2px solid deeppink;
+    font-family: "Sansation";
+}
+
+body
+{
+    background-image: url("background.jpg");
+   // background-size:  90em 50em;
+    background-repeat: no-repeat;
+    //font-family: "Sansation";
+    
+}
+
+#centralloc
+{
+    margin-top: 4%;
+    margin-left: 20%;
+    margin-bottom: 7%;
+    margin-right: 20%;
+    width: 60%;
+    padding: 10px;
+    border: 7px solid white;
+    box-shadow: 10px 10px 6px lightpink;
+    border-radius: 2em;
+    background-color: white;
+    
+}
+
+#numofpsg
+{
+    padding: 2%;
+}
+
+h2
+{
+    color: deeppink;
+    font-family: "Sansation";
+    text-align: center;
+}
+
+@font-face
+{
+    font-family: Sansation;
+    src: url('Sansation_Regular.ttf');
+    
+}
+
+#p
+{
+    color:white;
+}
+
+#type
+{
+    font-family: Sansation;
+}
+
+#numofpsgr{
+    font-family: Sansation;
+}
+.info{
+    color:white;
+}
+table{
+    color:white;
+}

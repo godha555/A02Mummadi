@@ -1,0 +1,60 @@
+<html>
+<head>
+    <title>my choice</title>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Mummadi_LakshmiGodha.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript"  src="calculateform.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+<body>
+     <ul>
+  <li><a href="HTML.html">Home</a></li>
+  <li><a class="active" href="MYCHOICE.html">My Choice</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  
+</ul>
+<div id="centralloc">
+        <h2>Ticket Booking</h2>
+
+        <p>
+            Movie Name
+            <select id="type">
+                <option value="none">Choose the movie</option>
+                <option value="movie1">Movie 1</option>
+                <option value="movie2">Movie 2</option>
+            </select>
+        </p>
+
+        
+            <fieldset class="options">
+                <legend>Class</legend>
+                <input type="radio" name="size" id="low">Normal<br>
+                <input type="radio" name="size" id="half">Club<br>
+                <input type="radio" name="size" id="full">Royale<br>
+            </fieldset>
+
+            <p id="numofpsg"> 
+                
+                Total Number of Tickets(0-10) <input type="text" id="numoftckt" >
+            
+            </p>
+
+            <fieldset class="options">
+                <legend>Combos</legend>
+                <input type="checkbox" id="popcorn">PopCorn and Soft Drink<br>
+                <input type="checkbox" id="drink">French Fries and Soft Drink<br>
+            </fieldset>
+        
+
+            <p>
+                <input type="button" onclick="CalcEstimate()" id="estimate" value="Estimate">
+            </p>
+            <h5> TOTAL PRICE IS</h5>
+
+            <p id="outp1"> </p>
+        
+        </div>
+
+
+</body></html>
